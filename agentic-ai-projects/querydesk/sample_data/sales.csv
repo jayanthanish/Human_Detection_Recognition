@@ -1,0 +1,13 @@
+month,region,product,revenue,cost,orders
+2026-01,West,Cloud,48000,26000,120
+2026-01,East,Cloud,39000,24000,100
+2026-01,South,Cloud,31000,21000,85
+2026-02,West,Cloud,52000,27500,135
+2026-02,East,Cloud,42000,25000,112
+2026-02,South,Cloud,35000,23000,96
+2026-01,West,Services,18000,12000,45
+2026-01,East,Services,22000,14000,55
+2026-01,South,Services,16000,11000,40
+2026-02,West,Services,24000,15000,60
+2026-02,East,Services,21000,13500,52
+2026-02,South,Services,19000,12500,48

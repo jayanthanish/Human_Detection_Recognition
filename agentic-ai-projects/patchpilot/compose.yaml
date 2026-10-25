@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      CHAT_MODEL: qwen3:8b
+      EMBED_MODEL: nomic-embed-text
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - app-data:/app/data
+volumes:
+  app-data:

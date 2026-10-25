@@ -1,0 +1,10 @@
+diff --git a/checkout.py b/checkout.py
+--- a/checkout.py
++++ b/checkout.py
+@@ -1,5 +1,5 @@
+ def calculate_discount(total, discount_percent):
+-    if not 0 <= discount_percent <= 100:
++    if discount_percent < 0:
+         raise ValueError("Invalid discount")
+     discount = total * discount_percent / 100
+     return total - discount
